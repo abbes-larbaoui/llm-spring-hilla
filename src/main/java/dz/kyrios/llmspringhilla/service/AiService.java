@@ -19,13 +19,6 @@ public class AiService {
         this.ollamaChatModel = ollamaChatModel;
     }
 
-    public String getCompletion(String prompt) {
-        return chatClient.prompt()
-                .user(prompt)
-                .call()
-                .content();
-    }
-
     public Flux<String> generateMessage(String promptMessage) {
         return ollamaChatModel.stream(promptMessage);
     }
