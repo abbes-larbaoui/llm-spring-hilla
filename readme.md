@@ -30,16 +30,15 @@ This project is a fullstack AI chat application that integrates a backend powere
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/abbes-larbaoui/llm-spring-hilla.git
+   cd llm-spring-hilla
    ```
 
 2. **Run the Docker Compose File:**
     - Navigate to the directory containing the `docker-compose.yml` file.
     - Start the Ollama container:
    ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    docker-compose up -d
    ```
 
 3. **Run the Llama2 Model:**
