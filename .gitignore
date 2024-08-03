@@ -1,0 +1,11 @@
+/node_modules/
+/.idea/
+/target/
+/package.json
+/package-lock.json
+/tsconfig.json
+/types.d.ts
+/vite.config.ts
+/vite.generated.ts
+/src/main/frontend/generated/
+/src/main/frontend/index.html
